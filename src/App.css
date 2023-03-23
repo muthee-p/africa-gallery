@@ -1,0 +1,21 @@
+button{
+	background-color: #041424;
+	color:#73e5c8;
+	padding: .5rem;
+	
+}
+button:hover{
+	background-color: #041424;
+	color:#73e5c8;
+	
+	
+}
+.social-icon:hover{
+	color: #73e5c8; 
+}
+
+h1, h2, h3, h4, h5{
+	font-weight: bold;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}

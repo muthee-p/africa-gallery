@@ -1,0 +1,76 @@
+import React, {useState} from 'react';
+import { NavLink } from 'react-router-dom';
+import Logo from '../assets/logo.png';
+import LogoMobile from '../assets/logophone.png';
+import { AiFillInstagram } from 'react-icons/ai';
+import { MdMenu, MdOutlineCancel } from 'react-icons/md'
+
+const Nav = () => {
+  const [isOpen, setIsOpen] = useState();
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const activeLink = 'bg-[#041424] text-[#73e5c8] p-[.5rem]';
+  const regular = 'p-[.5rem]';
+
+  
+  return (
+    <nav className='fixed bg-white z-50 top-0 w-[100%] p-2 flex justify-between items-center shadow-xl bg-opacity-25 backdrop-blur pr-8 pl-8'>
+    
+    <div >
+      <NavLink to="/" className='w-[35%] mr-6 hidden lg:block h-8 w-auto'>
+        <img src={ Logo} className='w-[40%]' alt='logo'/></NavLink>
+
+        <NavLink to="/" className='w-[35%] mr-6 block lg:hidden h-8 w-auto'>
+        <img src={ LogoMobile} className='w-[40%]' alt='logo'/></NavLink>
+    </div>
+    
+    <div className={`${
+          isOpen ? "block" : "hidden"
+        } md:block md:fixed md:left-0 md:min-h-full  p-4 md:w-[20%] bg-[#212529] md:border-0 border-r border-gray-200`}
+    >
+  	<ul >
+      <li className='mr-6 border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium'>
+        <NavLink to="/" className={({isActive}) => isActive? activeLink: regular}>
+          Home
+        </NavLink>
+      </li>
+
+       <li className='mr-6'>
+        <NavLink to="/artwork" className={({isActive}) => isActive? activeLink: regular}> 
+        Artwork</NavLink>
+       </li>
+
+      <li className ='mr-6'>
+        <NavLink to="/artists" className={({isActive}) => isActive? activeLink: regular}>
+          Artists</NavLink>
+      </li>
+
+      <li className ='mr-6'>
+        <NavLink to="/exhibition" className={({isActive}) => isActive? activeLink: regular}>Exhibition</NavLink>
+      </li>
+      <li>
+        <NavLink to="https://www.instagram.com/african_paintings_pics/" className='social-icon self-center text-lg'><AiFillInstagram /></NavLink>
+      </li>
+       
+    </ul>
+    </div>
+    <div className="-mr-2 flex items-center sm:hidden">
+            <button
+            onClick={toggleMenu}
+              type="button"
+              className="bg-white inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              aria-expanded="false"
+            >
+              <span className="sr-only">Open main menu</span>
+              <MdMenu  className={`block h-6 w-6 ${isOpen ? 'hidden' : 'block'}`} aria-hidden="true" />
+              <MdOutlineCancel  className={`hidden h-6 w-6 ${isOpen ? 'block' : 'hidden'}`}  aria-hidden="true" />
+            </button>
+          </div>
+   
+   </nav>
+    )
+}
+export default Nav ;
