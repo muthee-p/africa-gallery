@@ -14,19 +14,19 @@ const Exhibition = () => {
 	<div>
 		<h3 className='text-center m-4'>PAST EXHIBITIONS</h3>
 		<div className='flex flex-col items-center md:flex-row'>
-		<div className='md:w-1/3'>
+		<div className='md:w-1/3 md:p-2'>
 		<img src={BonMwiru} alt='man'className=''/>
 		<h5>moi Avenue</h5>
 		<p>November 2022</p>
 		</div>
-		<div className='md:w-1/3'>
+		<div className='md:w-1/3 md:p-2' >
 		<img src={BonMwiru} alt='man'className='w'/>
 		<h5>moi Avenue</h5>
 		<p>November 2022</p>
 		</div>
 
-		<div className='md:w-1/3'>
-		<img src={BonMwiru} alt='man'className='md:w-1/2'/>
+		<div className='md:w-1/3 md:p-2'>
+		<img src={BonMwiru} alt='man'className=''/>
 		<h5>moi Avenue</h5>
 		<p>November 2022</p>
 		</div>
