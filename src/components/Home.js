@@ -70,7 +70,7 @@ const Home = () => {
 	<div class=" text-center  h-[30%] mb-8 ">
 		<h2>About Us</h2>
 		
-		<div className='w-[] p-4 flex items-center'>
+		<div className='w-[] p-4 flex items-center flex-col'>
 		<p className=''>
 			Welcome to our African Gallery, where the vibrant and diverse artistry of Africa comes alive. Nestled in the heart of this rich continent, our gallery is a celebration of the extraordinary talent and cultural heritage of African artists. We believe in showcasing the unique narratives, traditions, and perspectives that emerge from Africa's artistic landscape.
 		</p>
