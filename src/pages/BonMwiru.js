@@ -12,17 +12,15 @@ const BonMwiru = () => {
 		<h3 className='text-center mb-4'>Whom am i? </h3>
 		<p>
 
-		Lorem ipsum dolor sit amet. Ea incidunt incidunt ut vitae temporibus aut asperiores quasi At possimus voluptatem. Vel aperiam voluptatum eum iusto molestiae aut illo officiis eos aspernatur exercitationem est veritatis fugiat eum magnam aspernatur. Ex accusantium harum qui molestiae corrupti et omnis molestiae vel voluptatibus inventore est incidunt dolore aut explicabo quas qui perferendis itaque. 
+		
+			Born and raised in the heart of Africa, Bon Mwiru is a remarkable artist whose creative journey is deeply rooted in the vibrant tapestry of the continent. With a profound passion for storytelling through art, Bon Mwiru channels the rich cultural heritage, spiritual traditions, and diverse landscapes of Africa into their captivating creations. Their artistic exploration spans various mediums, including painting, sculpture, and mixed media, resulting in a body of work that embodies both the raw essence and contemporary spirit of Africa.
 		</p> <br />
 		<p>
-		Et earum explicabo et laborum blanditiis eum expedita obcaecati vel quia galisum non adipisci officia id assumenda accusamus.
-
-		Rem pariatur similique et similique tempora At dolores veniam non quia vitae. Aut adipisci consequuntur non dignissimos incidunt ex culpa aperiam est molestiae error ut repellendus voluptatem. Non consectetur animi aut minus placeat non maiores rerum. 
-		</p> <br />
-		<p> Eos aliquam repellat sit perspiciatis cupiditate est soluta dolorum qui aliquam enim ad alias voluptatem est laboriosam quaerat qui sunt quas.
-
-		Id quisquam quia eos dolorem doloribus ab porro ipsa et consequuntur animi rem voluptatem laboriosam non sint sunt. Sed ullam mollitia in provident iusto ut repellendus consequatur sit sapiente quaerat. Eum numquam laborum sed consequatur consequuntur et illum quaerat aut totam quas est quos omnis.
-		</p>
+			Drawing inspiration from the resilience and beauty of African communities, Bon seamlessly weaves together elements of tradition and modernity in their art. Their use of bold colors, intricate patterns, and dynamic compositions reflects a deep connection to African aesthetics, while simultaneously challenging conventional norms and embracing new forms of expression. Through their work, Bon aims to provoke dialogue, shed light on social issues, and celebrate the rich cultural diversity that defines Africa.
+	  	</p> <br />
+		<p> 
+	  		Having exhibited their art nationally and internationally, Bon has garnered recognition for their unique artistic vision and technical prowess. Their powerful creations have graced galleries, museums, and private collections, captivating viewers with their ability to transcend boundaries and touch the hearts of individuals from all walks of life. Bon continues to push artistic boundaries, using their talent as a catalyst for change and a testament to the boundless creativity that flows through Africa's artistic veins.
+	  	</p>
 	</div>
 	</div>
 
@@ -30,7 +28,7 @@ const BonMwiru = () => {
 	<h3 className='text-center mb-4'>ARTWORKS AVAILABLE</h3>
 	<div className='flex justify-around w-[100%] text-center'>
 		<div className='w-[50%] m-4 p-2'>
-			<Link to='/artists/bonmwiru/bonmwiruslide' className=' h-[36rem] flex justify-center mb-4'>
+			<Link to='/artwork/bonmwiru/bonmwiruslide' className=' h-[36rem] flex justify-center mb-4'>
 				<img src={BonMwiruOne} alt="woman" />
 			</Link>
 			<h5>Id quisquam quia eos dolorem doloribus</h5>
