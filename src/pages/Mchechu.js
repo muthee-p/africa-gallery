@@ -13,18 +13,15 @@ const Mchechu = () => {
 	<div className='w-[50%] p-8'>
 		<h3 className='text-center mb-4'>Whom am i? </h3>
 		<p>
-
-		Lorem ipsum dolor sit amet. Ea incidunt incidunt ut vitae temporibus aut asperiores quasi At possimus voluptatem. Vel aperiam voluptatum eum iusto molestiae aut illo officiis eos aspernatur exercitationem est veritatis fugiat eum magnam aspernatur. Ex accusantium harum qui molestiae corrupti et omnis molestiae vel voluptatibus inventore est incidunt dolore aut explicabo quas qui perferendis itaque. 
+			
+Born and raised in the heartlands of Africa, Mchechu is a visionary artist whose creations embody the soul-stirring essence of the continent. With a deep reverence for the natural beauty that surrounds them, Mchechu finds inspiration in the diverse landscapes, wildlife, and ancestral traditions of Africa. Their artistic repertoire spans across various mediums, including painting, sculpture, and installation, each piece meticulously crafted to reflect their profound connection to the land and its people.
 		</p> <br />
 		<p>
-		Et earum explicabo et laborum blanditiis eum expedita obcaecati vel quia galisum non adipisci officia id assumenda accusamus.
-
-		Rem pariatur similique et similique tempora At dolores veniam non quia vitae. Aut adipisci consequuntur non dignissimos incidunt ex culpa aperiam est molestiae error ut repellendus voluptatem. Non consectetur animi aut minus placeat non maiores rerum. 
-		</p> <br />
-		<p> Eos aliquam repellat sit perspiciatis cupiditate est soluta dolorum qui aliquam enim ad alias voluptatem est laboriosam quaerat qui sunt quas.
-
-		Id quisquam quia eos dolorem doloribus ab porro ipsa et consequuntur animi rem voluptatem laboriosam non sint sunt. Sed ullam mollitia in provident iusto ut repellendus consequatur sit sapiente quaerat. Eum numquam laborum sed consequatur consequuntur et illum quaerat aut totam quas est quos omnis.
-		</p>
+		Through their art, Mchechu seeks to evoke a sense of harmony and balance, inviting viewers to contemplate the intricate interplay between humanity and nature. Their works often showcase vibrant color palettes, dynamic forms, and intricate details that bring to life the diverse flora and fauna of Africa. Rooted in a deep cultural understanding, Mchechu incorporates elements of traditional symbolism and mythology into their art, weaving narratives that resonate with both local communities and global audiences.
+	  </p> <br />
+		<p> 
+	  Having exhibited their art nationally and internationally, Mchechu has garnered recognition for their unique artistic vision and technical prowess. Their powerful creations have graced galleries, museums, and private collections, captivating viewers with their ability to transcend boundaries and touch the hearts of individuals from all walks of life. He continues to push artistic boundaries, using their talent as a catalyst for change and a testament to the boundless creativity that flows through Africa's artistic veins.
+	  </p>
 	</div>
 	</div>
 
@@ -32,19 +29,19 @@ const Mchechu = () => {
 	<h3 className='text-center mb-4'>ARTWORKS AVAILABLE</h3>
 	<div className='flex justify-around w-[100%] text-center'>
 		<div className='w-[50%] m-4 p-2'>
-			<Link to='/artists/mchechu/mchechuslide' className=' h-[36rem] flex justify-center mb-4'>
+			<Link to='/artwork/mchechu/mchechuslide' className=' h-[36rem] flex justify-center mb-4'>
 				<img src={ MchechuOne} alt='chui' />
 			</Link>
-			<h5>Id quisquam quia eos dolorem doloribus</h5>
+			<h5>Agile</h5>
 			<p><span>Material:</span> Canvas</p>
 			<p><span>Dimensions:</span>32 x 40 in</p>
 		</div>
 
 		<div className='w-[50%] m-4 p-2'>
-			<Link to='/artists/mchechu/mchechuslide'  className=' h-[36rem] flex justify-center mb-4'>
+			<Link to='/artwork/mchechu/mchechuslide'  className=' h-[36rem] flex justify-center mb-4'>
 				<img src={MchechuTwo} alt='zebra' />
 			</Link>
-			<h5>Id quisquam quia eos dolorem doloribus</h5>
+			<h5>Peace</h5>
 			<p><span>Material:</span> Canvas</p>
 			<p><span>Dimensions:</span>32 x 40 in</p>
 		</div>
@@ -52,10 +49,10 @@ const Mchechu = () => {
 
 	<div className='flex justify-around w-[100%] text-center'>
 		<div className='w-[50%] m-4 p-2'>
-			<Link to='/artists/mchechu/mchechuslide'  className=' h-[36rem] flex justify-center mb-4'>
+			<Link to='/artwork/mchechu/mchechuslide'  className=' h-[36rem] flex justify-center mb-4'>
 				<img src={ MchechuThree} alt='lion'/>
 			</Link>
-		<h5>Id quisquam quia eos dolorem doloribus</h5>
+		<h5>Might</h5>
 		<p><span>Material:</span> Canvas</p>
 		<p><span>Dimensions:</span>32 x 40 in</p>
 		</div>
