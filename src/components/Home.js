@@ -70,10 +70,10 @@ const Home = () => {
 	<div class=" text-center  h-[30%] mb-8 ">
 		<h2>About Us</h2>
 		
-		<div className='w-[] p-4 flex items-center flex-col'>
+		<div className='md:w-[70%] p-4 flex items-center flex-col'>
 		<p className=''>
 			Welcome to our African Gallery, where the vibrant and diverse artistry of Africa comes alive. Nestled in the heart of this rich continent, our gallery is a celebration of the extraordinary talent and cultural heritage of African artists. We believe in showcasing the unique narratives, traditions, and perspectives that emerge from Africa's artistic landscape.
-		</p>
+		</p><br>
 		<p>
 			Our collection features a captivating array of artwork from a myriad of African artists, each with their own distinctive style and voice. From awe-inspiring sculptures that pay homage to ancestral wisdom, to breathtaking paintings that explore the intricate tapestry of African life, every piece tells a story that resonates with the soul.
 			</p>
