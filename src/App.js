@@ -18,17 +18,18 @@ function App() {
           <Route path ="/artwork/kupoayo" element={<Kupoayo />}/>
             <Route path ="/artwork/kupoayoslide" element={<KupoayoSlide />} />
 
-          <Route path ="/artists/jamesobonyo" element={<JamesObonyo />} />
-           <Route path ="/artists/jamesobonyo/jamesobonyoslide" element={<JamesObonyoSlide />} />
-          <Route path ="/artists/mchechu" element={<Mchechu />} />
-            <Route path ="/artists/mchechu/mchechuslide" element={<MchechuSlide />} />
+          <Route path ="/artwork/jamesobonyo" element={<JamesObonyo />} />
+           <Route path ="/artwork/jamesobonyo/jamesobonyoslide" element={<JamesObonyoSlide />} />
+          
+          <Route path ="/artwork/mchechu" element={<Mchechu />} />
+            <Route path ="/artwork/mchechu/mchechuslide" element={<MchechuSlide />} />
           
           
-          <Route path ="/artists/kamyoso" element={<Kamyoso />} />
-          <Route path ="/artists/kamyoso/kamyososlide" element={<KamyosoSlide />} />
+          <Route path ="/artwork/kamyoso" element={<Kamyoso />} />
+          <Route path ="/artwork/kamyoso/kamyososlide" element={<KamyosoSlide />} />
 
-          <Route path ="/artists/bonmwiru" element={<BonMwiru />} />
-          <Route path ="/artists/bonmwiru/bonmwiruslide" element={<BonMwiruSlide />} />
+          <Route path ="/artwork/bonmwiru" element={<BonMwiru />} />
+          <Route path ="/artwork/bonmwiru/bonmwiruslide" element={<BonMwiruSlide />} />
         <Route path="contact" element={<Contact />} />
         <Route path="exhibition" element={<Exhibition />} />
         </Route>
